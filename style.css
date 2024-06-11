@@ -1,0 +1,53 @@
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: rgb(41, 65, 143);
+  align-items: center;
+}
+.navbar-brand {
+}
+
+.main {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 680px;
+  background-image: url(MedicalAI_IT.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.content {
+  border-radius: 10px;
+  background-color: rgb(255, 253, 181, 0.7);
+  color: rgb(0, 0, 0, 0.9);
+  margin-bottom: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+form {
+  width: 15%;
+  border-radius: 10px;
+  background-color: rgb(41, 65, 143, 0.7);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#userInfo {
+  background-color: rgb(0, 0, 0, 0.7);
+}
+.footer {
+  color: white;
+  padding: 200px;
+}
